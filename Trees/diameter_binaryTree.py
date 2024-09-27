@@ -1,5 +1,5 @@
 class Solution:
-    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int: # type: ignore
         self.diameter = 0  # Inicializa o diâmetro com 0
 
         def height(node):
